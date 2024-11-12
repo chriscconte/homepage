@@ -1,18 +1,75 @@
-# Personal Website
+# Nuxt Minimal Starter
 
-Hello, you've reached the repo for my personal webiste, [chris.conte.org].
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-- writings, musings on code or otherwise. 
-- personal projects, code or otherwise.
-- Resume, CV, about me, linktree.
+## Setup
 
+Make sure to install dependencies:
 
-## Tech
+```bash
+# npm
+npm install
 
-This site is built in js and html. 
-Deployment happens via Github actions, and it's all hosted on github pages.
+# pnpm
+pnpm install
 
-## Content
+# yarn
+yarn install
 
-As of now, this site is just a landing page for my resume.
-Though, I like the idea of open-sourcing more of my internet ramblings so that I have the excuse to do more archival, and polishing work. 
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
