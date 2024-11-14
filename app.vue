@@ -2,22 +2,62 @@
   <div>
     <NuxtLayout>
       <div class="sm:container sm:mx-auto px-10">
-        <h1 class="text-center p-8">Chris Conte</h1>
-        <div class="columns-4 gap-8 text-center pb-4">
-          <NuxtLink to="/about" class="group">
-            <div class="w-full rounded hover:bg-red-500/50 group-[.router-link-active]:bg-red-500/50">About</div>
+        <div class="flex flex-row">
+          <div class="grow"></div>
+          <NuxtLink
+            to="http://instagram.com/chriscconte/"
+            class="block border-2 border-black bg-red-500/50 px-1"
+          >
+            ig
           </NuxtLink>
-          <NuxtLink to="/work" class="group">
-            <div class="w-full rounded hover:bg-yellow-400/50 group-[.router-link-active]:bg-yellow-400/50">Work</div>
+          <NuxtLink
+            to="https://github.com/chriscconte"
+            class="block border-2 border-black bg-red-500/50 px-1"
+          >
+            gh
           </NuxtLink>
-          <NuxtLink to="/projects" class="group">
-            <div class="w-full rounded hover:bg-blue-600/50 group-[.router-link-active]:bg-blue-600/50">Projects</div>
+          <NuxtLink
+            to="https://www.strava.com/athletes/1505235"
+            class="block border-2 border-black bg-red-500/50 px-1"
+          >
+            st
           </NuxtLink>
-          <NuxtLink activeClass="font-black">
-            <div class="w-full">More</div>
+          <NuxtLink
+            to="https://www.linkedin.com/in/christopher-conte-b56853128/"
+            class="block border-2 border-black bg-red-500/50 px-1"
+          >
+            in
           </NuxtLink>
         </div>
-        <div class="w-full p-10 border-2 border-black m-5">
+        <h1 class="text-5xl text-center p-8">Chris Conte</h1>
+        <div class="flex flex-row text-center">
+          <NuxtLink
+            to="/about"
+            class="block py-2 w-full hover:bg-red-500/50 border-2 border-black"
+            activeClass="bg-red-500/50"
+          >
+            About
+          </NuxtLink>
+          <NuxtLink
+            to="/work"
+            class="block py-2 w-full hover:bg-yellow-400/50 border-2 border-black"
+            activeClass="bg-yellow-500/50"
+          >
+            Work
+          </NuxtLink>
+          <NuxtLink
+            to="/projects"
+            class="block py-2 w-full hover:bg-blue-600/50 border-2 border-black"
+            activeClass="bg-blue-500/50"
+          >
+            Projects
+          </NuxtLink>
+          <NuxtLink class="block py-2 w-full border-2 border-black">
+            More
+          </NuxtLink>
+        </div>
+        <div class="h-1 bg-black"></div>
+        <div class="p-10 border-2 border-black">
           <NuxtPage />
         </div>
       </div>
