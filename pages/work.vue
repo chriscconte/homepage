@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-1 divide-y text-sm">
-    <div>
+    <div class="mb-4">
       <p class="font-bold">
         Full Stack Engineer II,
         <NuxtLink
@@ -19,7 +19,7 @@
       processes to be done quicker, letting our customer success team handle
       significantly more tickets per hour.
     </div>
-    <div>
+    <div class="mb-4">
       <p class="font-bold">
         Full Stack Engineer I,
         <NuxtLink
@@ -36,7 +36,7 @@
       emails sent by a quarter, reducing overhead and improving client
       communications.
     </div>
-    <div>
+    <div class="mb-4">
       <p class="font-bold">
         Machine Learning and Data Engineer,
         <NuxtLink
@@ -55,7 +55,7 @@
       scraping the web to our business needs, and was entirely responsible for
       the design and execution of the codebase.
     </div>
-    <div>
+    <div class="mb-4">
       <p class="font-bold">
         Assistant Manager,
         <NuxtLink
@@ -70,7 +70,7 @@
       Developed new processes for inventorying products, and tracking new items,
       alongside people management responsibilities.
     </div>
-    <div>
+    <div class="mb-4">
       <p class="font-bold">
         Full Stack Engineer,
         <NuxtLink to="https://jubiwee.com/en" target="_blank" class="underline">
@@ -78,15 +78,15 @@
         >
         Paris, FR Jul 2018 - Feb 2020
       </p>
-      I principally designed, developed, and deployed data based features for
-      Jubiwee’s web dashboard. I was responsible for the lifecycle of a feature
+      Designed, developed, and deployed data based features for
+      Jubiwee’s web dashboard. Responsible for the lifecycle of a feature
       which aggregated text-based employee responses into NLP powered
       visualizations for managers to quickly understand employee concerns and
-      needs. I also developed and graph based employee proximity tool, which
+      needs. Developed a graph based employee proximity tool, which
       enabled employees to interact with their colleagues by playing a game of
       “who-is” while using our software.
     </div>
-    <div>
+    <div class="mb-4">
       <p class="font-bold">
         Technology Analyst,
 
@@ -98,7 +98,7 @@
       Assisted in the development of an alerting system using AWS and Python for
       the Commodities Desk.
     </div>
-    <div>
+    <div class="mb-4">
       <p class="font-bold">
         Full Stack Engineering Intern,
         <NuxtLink

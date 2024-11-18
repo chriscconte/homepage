@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="sm:container sm:mx-auto px-10">
     <NuxtLayout>
-      <div class="sm:container sm:mx-auto px-10">
+      <div class="max-w-4xl mx-auto">
         <div class="flex flex-row">
           <div class="grow"></div>
           <NuxtLink
