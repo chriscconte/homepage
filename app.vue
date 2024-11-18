@@ -6,7 +6,7 @@
           <div class="grow"></div>
           <NuxtLink
             to="mailto:chris@conte.org"
-            class="block border-2 border-black bg-red-500/50 px-1 hover:after:content-['email'] after:content-['em']"
+            class="block border-2 border-black bg-red-500/50 px-1 hover:after:content-['email'] after:content-['email']"
           >
           </NuxtLink>
           <NuxtLink
@@ -30,7 +30,7 @@
           >
           </NuxtLink>
         </div>
-        <h1 class="text-5xl text-center p-8">Chris Conte</h1>
+        <h1 class="text-5xl text-center p-8 mb-4">Chris Conte</h1>
         <div class="flex flex-row text-center">
           <NuxtLink
             to="/"
