@@ -19,6 +19,8 @@ This is my portfolio website built with Nuxt.js.
     - [ ] Link to live demo
     - [ ] Link to GitHub repository
     - [ ] List technologies used
+    - [ ] Add a "live" tag if the project is live
+    - [ ] Add a "coming soon" tag if the project is not yet live
 
 ### _Future_
 - [ ] Populate writings page
