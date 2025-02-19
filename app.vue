@@ -89,5 +89,5 @@
 </template>
 
 <script setup>
-const isOpen = ref(true)
+const isOpen = ref(false)
 </script>
