@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "server: nuxt dev",
+            "request": "launch",
+            "runtimeArgs": [
+                "run", "dev"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Launch Firefox against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "",
+            "reAttach": true,
+        }
+    ]
+}

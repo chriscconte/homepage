@@ -53,9 +53,31 @@
           >
             Projects
           </NuxtLink>
-          <NuxtLink class="block py-2 w-full border-2 border-black">
+          <div class="block py-2 w-full border-2 border-black hover:bg-gray-100" @click="isOpen = !isOpen"> 
             More
-          </NuxtLink>
+            <div class="group relative"> 
+              <div class="absolute w-full top-full bg-white" :class="{ 'hidden': !isOpen }">
+                <NuxtLink
+                  to="/likes"
+                  class="block py-2 w-full hover:bg-green-500/50 border-2 border-black bg-white"
+                >
+                  Stuff I Like
+                </NuxtLink>
+                <NuxtLink
+                  to="/writings" 
+                  class="block py-2 w-full hover:bg-purple-500/50 border-2 border-black bg-white"
+                >
+                  Writings
+                </NuxtLink>
+                <NuxtLink
+                  to="/media"
+                  class="block py-2 w-full hover:bg-orange-500/50 border-2 border-black bg-white"
+                >
+                  Media
+                </NuxtLink>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="h-1 bg-black"></div>
         <div class="p-10 border-2 border-black">
@@ -65,3 +87,7 @@
     </NuxtLayout>
   </div>
 </template>
+
+<script setup>
+const isOpen = ref(true)
+</script>
