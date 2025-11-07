@@ -5,7 +5,7 @@
     </div>
     <div class="grow p-2">
       <p>
-        Chris is a software engineer based in NYC.
+        Chris is a software engineer based in Philadelphia, PA.
         <br />
         CV
         <NuxtLink class="underline" target="_blank" to="/resume.pdf" external> here </NuxtLink>

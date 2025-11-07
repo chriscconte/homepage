@@ -2,6 +2,26 @@
   <div class="grid grid-cols-1 divide-y text-sm">
     <div class="mb-4">
       <p class="font-bold">
+        Full Stack Engineer,
+        <NuxtLink
+          to="https://www.bantage.com"
+          target="_blank"
+          class="underline"
+        >
+          Bantage;</NuxtLink
+        >
+        Remote — Feb 2025 - Present
+      </p>
+      Developing a Google Ads campaign management platform for enterprise clients
+      at an early-stage startup. Architected and implemented a full-stack web
+      application with Django backend and Next.js/React frontend, enabling
+      clients to monitor campaigns, manage ad spend, and track performance
+      metrics. Built secure authentication system and admin panel using Django.
+      Engineered Airflow DAG pipelines for automated ad tracking, reporting, and
+      data processing with MongoDB integration.
+    </div>
+    <div class="mb-4">
+      <p class="font-bold">
         Full Stack Engineer II,
         <NuxtLink
           to="https://www.charterup.com"

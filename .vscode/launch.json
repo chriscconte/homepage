@@ -2,6 +2,30 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "server: nuxt generate",
+            "request": "launch",
+            "runtimeArgs": [
+                "run", "generate"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "server: nuxt build",
+            "request": "launch",
+            "runtimeArgs": [
+                "run", "build"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
             "name": "server: nuxt dev",
             "request": "launch",
             "runtimeArgs": [
@@ -14,12 +38,11 @@
             "type": "node"
         },
         {
-            "type": "firefox",
+            "type": "chrome",
             "request": "launch",
-            "name": "Launch Firefox against localhost",
+            "name": "Launch Chrome against localhost",
             "url": "http://localhost:3000",
             "webRoot": "",
-            "reAttach": true,
         }
     ]
 }
